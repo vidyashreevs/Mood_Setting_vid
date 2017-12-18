@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#000</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/popup_background_timer</item>
+    </style>
+    <style name="MyDialogTheme1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#000</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/popup_background_timer</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    //timer
+    <dimen name="divdw">0dp</dimen>
+    <dimen name="divdh">0dp</dimen>
+    <dimen name="numh">100dp</dimen>
+    <dimen name="txt">30dp</dimen>
+    <dimen name="subtxt">20dp</dimen>
+    <dimen name="onoff">15dp</dimen>
+
+</resources>
